@@ -1,7 +1,7 @@
 # Use a imagem oficial do Node.js 20 como base
 FROM node:20-slim
 
-RUN apt update && apt install -y curl wget
+# RUN apt update && apt install -y curl wget
 
 WORKDIR /usr/src/app
 
